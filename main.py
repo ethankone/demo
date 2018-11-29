@@ -6,13 +6,19 @@
 Curious, Creative, Tenacious(requires hopefulness)
 
 Game ideas:
-Walls closing in on player
+Always jumping, change charcter, one time jump platforms
+
+Bugs: 
+When you get a powerup or jump on the head of an enemy, sometimes the character lands abruptly on a nearby platform
+
+
+
 
 '''
 import pygame as pg
 import random
 from settings import *
-from sprites import *
+from sprites import * 
 from os import path
 
 class Game:
